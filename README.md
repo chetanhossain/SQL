@@ -109,6 +109,14 @@ Domain Integrity − Enforces valid entries for a given column by restricting th
 Referential integrity − Rows cannot be deleted, which are used by other records.
 User-Defined Integrity − Enforces some specific business rules that do not fall into entity, domain or referential integrity.
 
+What is an Operator in SQL?
+
+An operator is a reserved word or a character used primarily in an SQL statement's WHERE clause to perform operation(s), such as comparisons and arithmetic operations. These Operators are used to specify conditions in an SQL statement and to serve as conjunctions for multiple conditions in a statement.
+-Arithmetic operators
+-Comparison operators
+-Logical operators
+-Operators used to negate conditions
+
 
 How does Data control language(DCL) work?
 DCL has to do more with granting and taking away access to the data. Granting and revoking a users ability to read and write data
@@ -183,8 +191,3 @@ Here are the different types of the JOINs in SQL:
 * LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
 * RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
 * FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
-
-
-
-
-
